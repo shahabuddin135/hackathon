@@ -153,6 +153,10 @@ body{
     
 }
 
+#contact p {
+    margin: .5rem 0;
+}
+
 input {
 
     outline: none;
@@ -280,9 +284,11 @@ textarea{
     color: black;
 }
 
+#theme1,
+#theme2,
 #color{
     border: solid 1 px black;
-    height: 2rem;
+    height: 3rem;
     margin: 0.5rem;
 }
 
