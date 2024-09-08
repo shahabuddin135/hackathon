@@ -287,8 +287,8 @@ textarea{
 #theme1,
 #theme2,
 #color{
-    border: solid 1 px black;
-    height: 3rem;
+    
+    height: 5vh;
     margin: 0.5rem;
 }
 
