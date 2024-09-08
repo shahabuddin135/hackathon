@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+</head>
+
+<body>
+
+    <section id="landing-page">
+        <h1 id="page-title">Welcome to the Resume Builder</h1>
+        <h3 id="page-subtitle">Create Your Professional Resume in Minutes</h3>
+        <button id="letsgo"><a href="#form-section">Let's Go </a> <img id="down-arrow" src="./assets/down-arrow.png" alt="down arrow"></button>
+    </section>
+
+
+    <section id="input-section">
+
+        <h1 id="page-title">Fill in the Form to Begin!</h1>
+
+        <div class="main-input-form">
+            <header class="cv-header">
+                <section class="header-sidebar-right">
+                    <img class="profile-picture" src="profile-pictures/Photoroom-20240608_032753.png">
+                </section>
+                <section class="header-sidebar-left">
+                    
+                    <div id="header-info">
+
+                        <input type="text" id="name" placeholder="Your Name" >
+                        <input type="text" id="job-title" placeholder="Your Job Title">
+        
+                    </div>
+
+                </section>
+            </header>
+
+            <section class="sidebar"></section>
+
+            <div class="info-container">
+   
+
+    <b>Summary</b>
+
+    <div>
+
+        <textarea name="summary" id="summary" placeholder="Write your summary here"></textarea>
+
+    </div>
+
+    <b>Skills</b>
+    
+    <div>
+        <textarea name="skills" id="skills" placeholder="Your Skills here"></textarea>
+    </div>
+
+    <b>Experience</b>
+    <div>
+
+        <h3>Experience</h3>
+        <textarea name="Experience" placeholder="Your Experience here" id="experience"></textarea>
+
+    </div>
+
+    <b>Education</b>
+
+    <div>
+
+     <textarea name="Education" placeholder="Your education here" id="education"></textarea>
+                   
+    </div>
+
+    <b>Contacts</b>
+    
+    <div id="contact">
+
+        <input  type="number" placeholder="+92873826224">
+        <input type="url" placeholder="Your website" name="website" id="">
+        <input type="email" name="email" placeholder="Your Email" id="">
+
+    </div>
+
+    </div>
+           
+        </div>
+
+        <aside id="upload-photo">
+            <p>Upload your Profile Photo</p>
+            
+            <input type="file" name="profile-photo" accept="image/jpeg, image/webp, image/svg+xml, image/png" id="upload">
+            
+            <label for="upload">
+
+                <img id="upload-icon" src="assets/upload.png" alt="upload">
+
+            </label>
+        </aside>
+        
+
+
+    </section>
+
+
+    
+    
+
+    <!-- RESUME -->
+
+    <section id="form-section">
+
+        <h1 id="page-title">Preview your Resume</h1>
+
+        <aside id="change-theme">
+            <div style="display: flex; gap: 0.5rem; justify-content: center; align-items: center;">
+                <p>Change Resume Theme </p>
+                <img id="color" src="assets/pallete.png" alt="color">
+    
+            </div>
+           
+            <div>
+                <label for="theme"> Theme color
+                    <input type="color" name="theme" id="theme">
+                </label>
+            </div>
+
+            <div>
+                <label for="theme"> Title color
+                    <input type="color" name="title-color" id="title-color">
+                </label>
+            </div>
+
+        </aside>
+
+        <div class="main">
+            <header class="cv-header">
+                <section class="header-sidebar-right">
+                    <img class="profile-picture" src="">
+                </section>
+                <section class="header-sidebar-left">
+                    <h1 contenteditable="true">Shahabuddin</h1>
+                    <h3 contenteditable="true">MERN Stack Developer</h3>
+                </section>
+            </header>
+            <section class="sidebar">
+            </section>
+            <div class="info-container">
+    
+    <b>Summary</b>
+    <p contenteditable="true">
+    A passionate and skilled full stack developer with over 3 years of experience
+    in developing and deploying web applications using the MERN stack (MongoDB, Express, React, and Node.js).
+    Proficient in HTML, CSS, JavaScript, and RESTful APIs. Experienced in working with agile methodologies, 
+    version control, and cloud platforms. Seeking to leverage my technical and problem-solving abilities 
+    to create innovative and user-friendly solutions.
+    </p>
+    <b>Skills</b>
+    <p contenteditable="true">
+    - MERN stack (MongoDB, Express, React, and Node.js)<br />
+    - HTML, CSS, JavaScript, and Bootstrap<br />
+    - RESTful APIs and JSON<br />
+    - Git, GitHub, and Heroku<br />
+    - Agile and Scrum
+    </p>
+    <b>Experience</b>
+    <p contenteditable="true">
+    Full Stack MERN Developer
+    ABC Technologies
+    Jan 2021 - Present
+    - Developed and maintained various web applications using the MERN stack, such as an e-commerce platform, a social media network, and a blog site.
+    - Implemented responsive and dynamic front-end features using React, HTML, CSS, and Bootstrap.
+    - Designed and integrated back-end functionality and data models using Node.js, Express, and MongoDB.
+    - Utilized RESTful APIs and JSON to communicate between the front-end and the back-end.
+    </p>
+
+    <b>Education</b>
+    <p contenteditable="true">
+    The City School<br />
+    Oxford Medical Collage<br />
+    Hardvard Universiy
+    </p>
+
+    <b>Contacts</b>
+    <p contenteditable="true">
+    +92 123 456 7890<br />
+    example@example.com<br />
+    https://www.example.com
+    </p>
+
+    </div>
+            
+        </div>
+
+        <div id="download-container">
+            <button id="download">Download Resume <img id="download-icon" src="assets/download2.png" alt="downlaod"></button>
+
+            <p>Click the button to Download your Resume</p>
+
+        </div>
+
+        <div class="profile-container">
+            <p>Project by Shahabuddin</p>
+            <img id="credit" src="assets/purple-profile-transformed-transformed.jpeg">
+        </div>
+
+    </section>
+
+</body>
+
+</html>
